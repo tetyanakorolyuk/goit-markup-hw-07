@@ -1,0 +1,15 @@
+.page-header {
+  border-bottom: 1px solid $page-header-border-color;
+}
+.pade-header__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}

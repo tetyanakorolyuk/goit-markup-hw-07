@@ -1,0 +1,50 @@
+/* Main */
+.hero {
+  background-color: $background-second-color;
+  text-align: center;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from($hero-bg-image-color),
+      to($hero-bg-image-color)
+    ),
+    url("../images/heroimg.jpg");
+  background-image: linear-gradient($hero-bg-image-color, $hero-bg-image-color),
+    url("../images/heroimg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+&__title {
+  margin-top: 0;
+  margin-bottom: 30px;
+  color: $primary-white-color;
+  letter-spacing: $letter-spacing-fourth;
+  font-weight: $text-weight-fourth;
+  font-size: $text-size-eighth;
+  line-height: $line-height-fift;
+  text-transform: uppercase;
+}
+&__button {
+  background-color: $accent-color;
+  color: $primary-white-color;
+  letter-spacing: $letter-spacing-fourth;
+  font-family: inherit;
+  font-weight: $text-weight-third;
+  font-size: $text-size-third;
+  line-height: $line-height-ninth;
+  cursor: pointer;
+  border-radius: $border-radius-second;
+  padding: 10px 32px;
+  min-width: 200px;
+  text-align: center;
+  border: none;
+  -webkit-box-shadow: 0 4px 4px $hero-modal-btn-box-shadow-color;
+  box-shadow: 0 4px 4px $hero-modal-btn-box-shadow-color;
+}
