@@ -2,7 +2,7 @@
 .work-section {
   padding-top: 0;
   padding-bottom: 94px;
-}
+
 &__title {
   margin-top: 0;
   margin-bottom: 50px;
@@ -12,13 +12,14 @@
   line-height: $line-height-second;
   text-align: center;
 }
+}
 .work-list {
   padding: 0;
   margin: 0;
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-}
+
 &__item {
   margin-right: 30px;
   width: 370px;
@@ -50,4 +51,5 @@
   text-transform: uppercase;
   text-align: center;
   color: $primary-white-color;
+}
 }

@@ -2,7 +2,7 @@
 .clients-section {
   padding-top: 94px;
   padding-bottom: 94px;
-}
+
 &__title {
   margin-top: 0;
   margin-bottom: 50px;
@@ -12,10 +12,11 @@
   line-height: $line-height-second;
   text-align: center;
 }
+}
 .clients-card {
   display: flex;
   align-items: center;
-}
+
 &__link {
   width: 170px;
   height: 92px;
@@ -43,4 +44,5 @@
 }
 &__link:hover &__icon {
   fill: $accent-color;
+}
 }

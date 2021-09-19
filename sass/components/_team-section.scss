@@ -3,7 +3,7 @@
   background-color: $background-third-color;
   padding-bottom: 94px;
   padding-top: 94px;
-}
+
 &__title {
   margin-top: 0;
   margin-bottom: 50px;
@@ -13,12 +13,13 @@
   line-height: $line-height-second;
   text-align: center;
 }
+}
 .team-list {
   padding: 0;
   margin: 0;
   list-style: none;
   display: flex;
-}
+
 &__item {
   margin-right: 30px;
   width: 270px;
@@ -30,9 +31,10 @@
 &__item:nth-child(4n) {
   margin-right: 0;
 }
+}
 .team-card {
   padding: 30px 0;
-}
+
 &__title {
   margin-top: 0;
   margin-bottom: 10px;
@@ -52,11 +54,12 @@
   line-height: $line-height-third;
   text-align: center;
 }
+}
 .social-box {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+
 &__link {
   width: 44px;
   height: 44px;
@@ -82,4 +85,5 @@
 &__link:hover &__icon,
 &__link:focus &__icon {
   fill: $primary-white-color;
+}
 }
